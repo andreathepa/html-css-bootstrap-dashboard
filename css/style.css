@@ -15,3 +15,73 @@
 .green{
     background-color: green;
 }
+
+.sidebar{
+    background-color: green;
+    height: 100vh;
+    width: 80px;
+}
+
+.sidebar-short{
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+
+.sidebar-extended{
+    display: none;
+    width: 100%;
+    height: 100%;
+}
+
+.top-sidebar{
+    height: 85%;
+    background-color: aquamarine;
+}
+
+.bottom-sidebar{
+    height: 15%;
+    background-color: purple;
+}
+
+.main-content{
+    width: calc(100% - 80px);
+    height: 100vh;
+    background-color: goldenrod;
+}
+
+main{
+    background-color: black;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+}
+
+@media screen and (min-width: 960px) {
+    .sidebar-short{
+    display: none;
+}
+
+    .sidebar-extended{
+        display: block;
+}
+    
+    .main-content{
+    width: calc(100% - 100px);
+    background-color: rgb(32, 134, 218);
+}
+
+    .sidebar{
+    width: 150px;
+}
+
+    .top-sidebar{
+    background-color: rgb(255, 127, 255);
+}
+
+.bottom-sidebar{
+    background-color: rgb(2, 0, 128);
+}
+
+}
+
