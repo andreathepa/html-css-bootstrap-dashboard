@@ -29,9 +29,19 @@ header{
     left: 0;
 }
 
-#logo-phone{
+.header-short{
+    display: block;
+}
+
+.header-long{
+    display: none;
+}
+
+
+.logo-phone{
     width: 50px;
 }
+
 
 .sidebar{
     background-color: #051E34;
@@ -123,6 +133,14 @@ main{
 
 .font_size{
     font-size: 14px;
+}
+
+    .header-short{
+    display: none;
+}
+
+    .header-long{
+        display: block;
 }
 
 }
