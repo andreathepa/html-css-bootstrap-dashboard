@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 
-.yellow{
+/* .yellow{
     background-color: yellow;
 }
 
@@ -14,7 +14,7 @@
 
 .green{
     background-color: green;
-}
+} */
 
 .blue{
     background-color: #1B72E8;
@@ -37,6 +37,9 @@ header{
     display: none;
 }
 
+.link-hover:hover{
+    background-color: rgba(182, 182, 182, 0.342);
+}
 
 .logo-phone{
     width: 50px;
@@ -110,7 +113,6 @@ main{
     border-bottom: 1px solid lightgray;
 
 }
-
 
 
 

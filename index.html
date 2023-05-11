@@ -20,7 +20,7 @@
                     <div class="row align-items-center">
                         <div class="col-2">
                             <div class="content">
-                                <img src="./img/mobile-logo.png" class="logo-phone" alt="">
+                                <a href=""><img src="./img/mobile-logo.png" class="logo-phone" alt=""></a>
                             </div>
                         </div>
                         <div class="col-8">
@@ -32,7 +32,7 @@
                         </div>
                         <div class="col-2">
                             <div class="content p-2">
-                                <i class="fa-solid fa-bell" style="color: #ffe97a;"></i>
+                                <a href=""><i class="fa-solid fa-bell" style="color: #ffe97a;"></i></a>
                             </div>
                         </div>
                     </div>
@@ -45,7 +45,7 @@
                     <div class="row align-items-center justify-content-between text-center">
                         <div class="col-2">
                             <div class="content">
-                                <img src="./img/logo.svg" class="img-fluid" alt="">
+                                <a href=""><img src="./img/logo.svg" class="img-fluid" alt=""></a>
                             </div>
                         </div>
                         <div class="col-8">
@@ -81,15 +81,15 @@
                 <div class="sidebar-short">
                    <!-- TOP SIDEBAR -->
                     <div class="top-sidebar p-4">
-                        <ul class="list-unstyled">
-                            <li><a href="#" class="text-white"><i class="fa-solid fa-house"></i></a></li>
-                            <li><a href="#" class="text-white"><i class="fa-solid fa-chart-simple"></i></a></li>
-                            <li><a href="#" class="text-white"><i class="fa-solid fa-signal"></i></a></li>
+                        <ul class="list-unstyled text-center">
+                            <li class="link-hover"><a href="#" class="text-white"><i class="fa-solid fa-house"></i></a></li>
+                            <li class="link-hover"><a href="#" class="text-white"><i class="fa-solid fa-chart-simple"></i></a></li>
+                            <li class="link-hover"><a href="#" class="text-white"><i class="fa-solid fa-signal"></i></a></li>
                         </ul>
                     </div>
                     <!-- BOTTOM BAR -->
                     <div class="bottom-sidebar p-4">
-                        <a href="#" class="text-white"><i class="fa-solid fa-gear"></i></a>
+                        <a href="#" class="text-white link-hover"><i class="fa-solid fa-gear"></i></a>
                     </div> 
                 </div>
 
@@ -98,15 +98,15 @@
                 <div class="sidebar-extended">
                    <!-- TOP SIDEBAR -->
                    <div class="top-sidebar p-4">
-                    <ul class="list-unstyled">
-                        <li><a href="#" class="text-white text font_size"><i class="fa-solid fa-house"> Home</i></a></li>
-                        <li><a href="#" class="text-white text font_size"><i class="fa-solid fa-chart-simple"> Stats</i></a></li>
-                        <li><a href="#" class="text-white text font_size"><i class="fa-solid fa-signal"> Signals</i></a></li>
+                    <ul class="list-unstyled text-center">
+                        <li class="link-hover"><a href="#" class="text-white text font_size"><i class="fa-solid fa-house"> Home</i></a></li>
+                        <li class="link-hover"><a href="#" class="text-white text font_size"><i class="fa-solid fa-chart-simple"> Stats</i></a></li>
+                        <li class="link-hover"><a href="#" class="text-white text font_size"><i class="fa-solid fa-signal"> Signals</i></a></li>
                     </ul>
                 </div>
                 <!-- BOTTOM BAR -->
                 <div class="bottom-sidebar p-4">
-                    <a href="#" class="text-white font_size"><i class="fa-solid fa-gear"> Admin</i></a>
+                    <a href="#" class="text-white font_size link-hover"><i class="fa-solid fa-gear"> Admin</i></a>
                 </div> 
                 </div>
            </div>
@@ -125,14 +125,14 @@
                                 <!-- OFF CANVAS -->
                                 <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
                                   <div class="offcanvas-header">
-                                    <h5 class="offcanvas-title" id="offcanvasRightLabel">Offcanvas right</h5>
+                                    <h5 class="offcanvas-title" id="offcanvasRightLabel">Inserisci nuovo studente</h5>
                                     <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
                                   </div>
                                   <div class="offcanvas-body">
                                     <form class="row g-3">
                                         <div class="col-md-6">
                                           <label for="inputEmail4" class="form-label">Nome</label>
-                                          <input type="email" class="form-control" id="inputEmail4">
+                                          <input type="nome" class="form-control" id="inputEmail4">
                                         </div>
                                         <div class="col-md-6">
                                           <label for="inputPassword4" class="form-label">Cognome</label>
@@ -143,6 +143,9 @@
                                             <div class="input-group flex-nowrap">
                                                 <span class="input-group-text" id="addon-wrapping">@</span>
                                                 <input type="text" class="form-control" placeholder="Username" aria-label="Username" aria-describedby="addon-wrapping">
+                                                <div class="invalid-feedback">
+                                                    Please choose a username.
+                                                  </div>
                                               </div>
                                           </div>
                                           <div class="col-md-6">
@@ -168,16 +171,21 @@
                                           <label for="inputZip" class="form-label">Zip</label>
                                           <input type="text" class="form-control" id="inputZip">
                                         </div>
+                                        <div class="input-group mb-3">
+                                            <input type="file" class="form-control" id="inputGroupFile01">
+                                          </div>
                                         <div class="col-12">
                                           <div class="form-check">
                                             <input class="form-check-input" type="checkbox" id="gridCheck">
                                             <label class="form-check-label" for="gridCheck">
-                                              Check me out
+                                              Seleziona per proseguire
                                             </label>
                                           </div>
                                         </div>
                                         <div class="col-12">
-                                          <button type="submit" class="btn btn-primary">Sign in</button>
+                                          <button type="submit" class="btn btn-primary">Salva</button>
+                                          <button type="button" class="btn btn-warning">Svuota</button>
+                                            
                                         </div>
                                       </form>
                                   </div>
