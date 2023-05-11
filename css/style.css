@@ -34,7 +34,7 @@ header{
 }
 
 .sidebar{
-    background-color: green;
+    background-color: #051E34;
     height: calc(100vh - 75px);
     width: 80px;
 }
@@ -43,22 +43,26 @@ header{
     width: 100%;
     height: 100%;
     display: block;
+    background: url(../img/sidebar-bg.png);
+    background-repeat: no-repeat;
+    background-origin: content-box, padding-box;
 }
 
 .sidebar-extended{
     display: none;
     width: 100%;
     height: 100%;
+    background: url(../img/sidebar-bg.png);
+    background-repeat: no-repeat;
+    background-origin: content-box, padding-box;
 }
 
 .top-sidebar{
     height: 85%;
-    background-color: aquamarine;
 }
 
 .bottom-sidebar{
     height: 15%;
-    background-color: purple;
 }
 
 .main-content{
@@ -115,14 +119,6 @@ main{
 
     .sidebar{
     width: 150px;
-}
-
-    .top-sidebar{
-    background-color: rgb(255, 127, 255);
-}
-
-.bottom-sidebar{
-    background-color: rgb(2, 0, 128);
 }
 
 }
