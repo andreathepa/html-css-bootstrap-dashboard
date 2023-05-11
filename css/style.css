@@ -27,7 +27,10 @@ header{
     height: 75px;
     top: 0;
     left: 0;
-    background-color: blueviolet;
+}
+
+#logo-phone{
+    width: 50px;
 }
 
 .sidebar{
