@@ -70,14 +70,14 @@
                                 <span class="px-2"><a href=""><i class="fa-solid fa-question" style="color: #a0a0a0;"></i></a></span>
                                 <span class="px-2"><a href=""><i class="fa-solid fa-ellipsis-vertical" style="color: #a0a0a0;"></i></a></span>
                                 <span class="px-2">
-                                    <button class="btn btn-secondary dropdown-toggle bg-white border-white" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    <!-- <button class="btn btn-secondary dropdown-toggle bg-white border-white 25" type="button" data-bs-toggle="dropdown" aria-expanded="false">
                                         <i class="fa-solid fa-bell" style="color: #ffe97a;"></i>
                                     </button>
-                                    <ul class="dropdown-menu">
+                                    <div><ul class="dropdown-menu">
                                       <li><a class="dropdown-item" href="#">Action</a></li>
                                       <li><a class="dropdown-item" href="#">Another action</a></li>
                                       <li><a class="dropdown-item" href="#">Something else here</a></li>
-                                    </ul>
+                                    </ul></div> -->
                                 </span>
                             </div>
                         </div>
@@ -116,16 +116,20 @@
                 <div class="sidebar-extended">
                    <!-- TOP SIDEBAR -->
                    <div class="top-sidebar p-4">
-                    <ul class="list-unstyled text-center">
-                        <li class="link-hover"><a href="#" class="text-white text font_size"><i class="fa-solid fa-house"> Home</i></a></li>
-                        <li class="link-hover"><a href="#" class="text-white text font_size"><i class="fa-solid fa-chart-simple"> Stats</i></a></li>
-                        <li class="link-hover"><a href="#" class="text-white text font_size"><i class="fa-solid fa-signal"> Signals</i></a></li>
-                    </ul>
-                </div>
-                <!-- BOTTOM BAR -->
-                <div class="bottom-sidebar p-4">
-                    <a href="#" class="text-white font_size link-hover"><i class="fa-solid fa-gear"> Admin</i></a>
-                </div> 
+                        <ul class="list-unstyled text-center">
+                            <li class="link-hover"><a href="#" class="text-white text font_size"><i class="fa-solid fa-house"> Home</i></a></li>
+                            <li class="link-hover"><a href="#" class="text-white text font_size"><i class="fa-solid fa-chart-simple"> Stats</i></a></li>
+                            <li class="link-hover"><a href="#" class="text-white text font_size"><i class="fa-solid fa-signal"> Signals</i></a></li>
+                        </ul>
+                    </div>
+                    <!-- BOTTOM BAR -->
+                    <div class="bottom-sidebar p-1">
+                        <ul>
+                            <li class="link-hover">
+                                <a href="#" class="text-white font_size"><i class="fa-solid fa-gear"> Admin</i></a>
+                            </li>
+                        </ul>
+                    </div> 
                 </div>
            </div>
             <!--END SIDEBAR  -->
@@ -219,7 +223,10 @@
                                 <div>
                                     <span class="m-1 badge text-bg-primary">3 app</span> 
                                     >> 
-                                    <span class="m-1 badge text-bg-primary">+</span>
+                                    <span class="m-1 badge text-bg-primary d-lg-none">+</span>
+                                    <span class="m-1 badge text-bg-primary d-none d-lg-inline-block">Boolean</span>
+                                    <span class="m-1 badge text-bg-primary d-none d-lg-inline-block">App Boolean</span>
+                                    <span class="m-1 badge text-bg-primary d-none d-lg-inline-block">Boolean</span>
                                 </div>
                             </div>
                         </div>
