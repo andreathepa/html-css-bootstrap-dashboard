@@ -32,7 +32,16 @@
                         </div>
                         <div class="col-2">
                             <div class="content p-2">
-                                <a href=""><i class="fa-solid fa-bell" style="color: #ffe97a;"></i></a>
+                                <div class="dropdown">
+                                    <button class="btn btn-secondary dropdown-toggle bg-white border-white" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                        <i class="fa-solid fa-bell" style="color: #ffe97a;"></i>
+                                    </button>
+                                    <ul class="dropdown-menu">
+                                      <li><a class="dropdown-item" href="#">Action</a></li>
+                                      <li><a class="dropdown-item" href="#">Another action</a></li>
+                                      <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                    </ul>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -60,7 +69,16 @@
                                 <span class="px-2"><a href=""><i class="fa-solid fa-list style" style="color: #a0a0a0;"></i></a></span>
                                 <span class="px-2"><a href=""><i class="fa-solid fa-question" style="color: #a0a0a0;"></i></a></span>
                                 <span class="px-2"><a href=""><i class="fa-solid fa-ellipsis-vertical" style="color: #a0a0a0;"></i></a></span>
-                                <span class="px-2"><a href=""><i class="fa-solid fa-bell" style="color: #ffe97a;"></i></a></span>
+                                <span class="px-2">
+                                    <button class="btn btn-secondary dropdown-toggle bg-white border-white" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                        <i class="fa-solid fa-bell" style="color: #ffe97a;"></i>
+                                    </button>
+                                    <ul class="dropdown-menu">
+                                      <li><a class="dropdown-item" href="#">Action</a></li>
+                                      <li><a class="dropdown-item" href="#">Another action</a></li>
+                                      <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                    </ul>
+                                </span>
                             </div>
                         </div>
                     </div>
@@ -123,7 +141,7 @@
                                     <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight"><i class="fa-solid fa-plus"></i></button>
                                 </span>
                                 <!-- OFF CANVAS -->
-                                <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+                                <div class="offcanvas offcanvas-end w-50" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
                                   <div class="offcanvas-header">
                                     <h5 class="offcanvas-title" id="offcanvasRightLabel">Inserisci nuovo studente</h5>
                                     <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
